@@ -3,7 +3,7 @@
 
 const express = require('express');
 const { ECSClient, RunTaskCommand } = require('@aws-sdk/client-ecs');
-const { generateSlug } = require('random-word-slugs');7
+const { generateSlug } = require('random-word-slugs');
 const { config } = require('../config');
 
 const app = express();
