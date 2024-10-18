@@ -1,0 +1,14 @@
+module.exports.config = {
+    REVERSE_PROXY_PORT: '',
+    API_SERVER_PORT: '',
+    AWS_ACCESS_KEY_ID: '',
+    AWS_SECRET_ACCESS_KEY: '',
+    AWS_REGION: '',
+    AWS_ECS_SUBNETS: [],
+    AWS_ECS_SECURITY_GROUPS: [],
+    AWS_ECS_CLUSTER: '',
+    AWS_ECS_TASK_DEFINITION: '',
+    REDIS_AIVEN_URL: '',
+    SOCKET_SERVER_PORT: '',
+    S3_BUCKET_TARGET_URL: '',
+};

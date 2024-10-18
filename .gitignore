@@ -1,0 +1,12 @@
+.vscode/
+config.js
+
+api-server/node_modules
+build-server/node_modules
+reverse-proxy/node_modules
+socket-io/node_modules
+
+api-server/package-lock.json
+build-server/package-lock.json
+reverse-proxy/package-lock.json
+socket-io/package-lock.json
