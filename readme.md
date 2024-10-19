@@ -21,12 +21,11 @@ socket-io:
 5. subscriber listens to all the logs `logs:*` channel
 
 
-Parallel project deployment is achieved using spinning of parallel dockers and publishing the logs to channel
+Parallel project deployment is achieved using parallel dockers containers and publishing the logs to channel
 `logs:${project-id}`
 
-Extra Points to cover:
-1. dynamic support of build/dist folders
+Extra Points to cover in future:
+1. dynamic support of build/dist folders (any type of project deploy support and not just create-react-app projects)
 2. FE option to give slug for uploading the changes on the same github url 
     / anytime github push is done automatic re-upload.
-3. using config files instead of hardcoding
 
