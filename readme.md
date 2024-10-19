@@ -1,8 +1,8 @@
 Docker Container is pushed to AWS-ECR
 
 api-server:
-    1. nodejs server which gets the github url from the FE
-    2. spins a docker container task on AWS ECS
+1. nodejs server which gets the github url from the FE
+2. spins a docker container task on AWS ECS
 
 build-server:
     1. docker file executes a shell script 
